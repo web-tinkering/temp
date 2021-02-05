@@ -9,14 +9,8 @@
     background-repeat: no-repeat;
 }
 
-nav.container::before{
-    content: "";
-    display: block;
-    height: 2rem;
-}
-
 .list-group-item{
-    border: 0
+    border: 0;
 }
 
 .list-group .list-group-item a{
@@ -37,11 +31,4 @@ nav.container::before{
     top: calc(50% - 1rem);
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-@media (max-width: 1200px){
-    .list-group-item{
-        border: 2px solid #f8f9fa;
-        width: 100%;
-    }
 }
