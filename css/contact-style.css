@@ -1,0 +1,16 @@
+/* .row{
+    border: 2px solid green;
+} */
+
+.info{
+    margin-top: 6rem;
+}
+
+.hline{
+    border: 2px solid red;
+}
+
+.required::after{
+    content: "*";
+    color: red;
+}
