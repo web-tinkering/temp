@@ -6,10 +6,6 @@ nav.container::before, nav.container::after{
     height: 2rem;
 }
 
-.list-group-item{
-    border: 0
-}
-
 .list-group .list-group-item a{
     color: #f8f9fa;
     transition: all 0.3s ease-in-out;
@@ -17,11 +13,4 @@ nav.container::before, nav.container::after{
 
 .list-group .list-group-item a:hover{
     color: chartreuse;
-}
-
-@media (max-width: 1200px){
-    .list-group-item{
-        border: 2px solid #f8f9fa;
-        width: 100%;
-    }
 }
