@@ -1,0 +1,19 @@
+/* ################################################### navbar styling ######################################## */
+
+.list-group .list-group-item a[href="./contact.html"]{
+    color: #E9AD28;
+}
+
+.info{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.hline{
+    border: 2px solid red;
+}
+
+.required::after{
+    content: "*";
+    color: red;
+}

@@ -1,0 +1,27 @@
+/* ################################################### navbar styling ######################################## */
+
+.list-group .list-group-item a[href="./index.html"]{
+    color: #E9AD28;
+}
+
+/* ################################################### header styling ######################################## */
+
+.header{
+    position: relative;
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../images/20210131_164708.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-content{
+    border-radius: 2.5em;
+    padding: 3em;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 60%;
+    position: absolute;
+    top: calc(50% - 1rem);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

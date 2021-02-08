@@ -1,0 +1,16 @@
+/* ################################################### navbar styling ######################################## */
+
+nav.container::before, nav.container::after{
+    content: "";
+    display: block;
+    height: 2rem;
+}
+
+.list-group .list-group-item a{
+    color: #f8f9fa;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-group .list-group-item a:hover{
+    color: chartreuse;
+}

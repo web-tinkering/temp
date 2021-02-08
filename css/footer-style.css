@@ -1,0 +1,14 @@
+footer.container::before, footer.container::after{
+    content: "";
+    display: block;
+    height: 3rem;
+}
+
+footer address a{
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+footer address a:hover{
+    color: orange;
+}
