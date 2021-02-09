@@ -47,6 +47,10 @@
                     <h1 class="text-gray display-4">Contact Us</h1>
                     <div class="hline w-100 mt-3 mb-5"></div>
                     <p class="justify-text">If you have a query, don't hesitate to contact us! Fill up the form, click on submit and you are good to go!</p>
+                    <div class="form-group">
+                        <p class="form-text">Fields marked with <span style="color: red; font-size: 1.5em;">*</span> are mandarory</p>
+                    </div>
+
                     <div class="form-group mb-4">
                         <label class="text-medium required" for="name">Name</label>
                         <input class="form-control" type="text" id="username" placeholder="Enter your full name" name="name" required>
@@ -56,16 +60,14 @@
                         <input class="form-control" type="email" id="email" placeholder="Enter your email address" name="email" required>
                     </div>
                     <div class="form-group mb-4">
-                        <label class="text-medium required" for="phone">Phone</label>
-                        <input class="form-control" type="text" id="phone" placeholder="Enter your phone number" name="phone" required>
+                        <label class="text-medium" for="phone">Phone</label>
+                        <input class="form-control" type="text" id="phone" placeholder="Enter your phone number" name="phone">
                     </div>
                     <div class="form-group mb-4">
                         <label class="text-medium required" for="message">Message</label>
                         <textarea class="form-control" id="message" placeholder="Write here..." name="message"></textarea>
                     </div>
-
                     <center><button type="submit" class="btn-lg btn-primary">Submit</button></center>
-
                     <div class="thank-you-message form-group mt-5">
                         <h2 class="text-success text-center">Thanks for contacting us!</h2>
                     </div>
