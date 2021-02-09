@@ -3,5 +3,5 @@ $(function(){
 });
 
 $(function(){
-    $("#load-contact-and-subscribe").load("./random-folder/contact-and-subscribe.html");
+    $("#load-footer").load("./random-folder/footer.html");
 });
