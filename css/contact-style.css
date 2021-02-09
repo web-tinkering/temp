@@ -11,6 +11,7 @@
 
 .hline{
     border: 2px solid red;
+    border-radius: 10rem;
 }
 
 .required::after{
@@ -20,4 +21,11 @@
 
 .thank-you-message{
     display: none;
+    /* opacity: 0;
+    transform: translateY(5rem);
+    transition: all 0.3s ease-in-out; */
 }
+/* .thank-you-message[style="display:block"]{
+    opacity: 1;
+    transform: translateY(0);
+} */

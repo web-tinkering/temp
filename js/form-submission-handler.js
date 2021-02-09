@@ -76,7 +76,8 @@
             }
             var thankYouMessage = form.querySelector(".thank-you-message");
             if (thankYouMessage) {
-              thankYouMessage.style.display = "block";
+              animateText(thankYouMessage)
+              enableAllButtons(form);
             }
           }
       };
@@ -95,11 +96,24 @@
       }
     };
     document.addEventListener("DOMContentLoaded", loaded, false);
+
+    function animateText(element) {
+      element.style.display = "block";
+    }
   
     function disableAllButtons(form) {
       var buttons = form.querySelectorAll("button");
       for (var i = 0; i < buttons.length; i++) {
+        buttons[i].style.opacity = 0.65
         buttons[i].disabled = true;
+      }
+    }
+
+    function enableAllButtons(form) {
+      var buttons = form.querySelectorAll("button");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].disabled = false;
+        buttons[i].style.opacity = 1
       }
     }
   })();
