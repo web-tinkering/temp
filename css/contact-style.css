@@ -17,3 +17,7 @@
     content: "*";
     color: red;
 }
+
+.thank-you-message{
+    display: none;
+}
