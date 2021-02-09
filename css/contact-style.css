@@ -11,11 +11,16 @@
 
 .hline{
     border: 2px solid red;
+    border-radius: 10rem;
 }
 
 .required::after{
     content: "*";
     color: red;
+}
+
+textarea.form-control{
+    height: 20rem;
 }
 
 .thank-you-message{
