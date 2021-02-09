@@ -61,6 +61,8 @@
         return false;
       }
   
+      var thankYouMessage = form.querySelector(".thank-you-message");
+      hideText(thankYouMessage)
       disableAllButtons(form);
       var url = form.action;
       var xhr = new XMLHttpRequest();
@@ -74,7 +76,6 @@
             if (formElements) {
               formElements.style.display = "none"; // hide form
             }
-            var thankYouMessage = form.querySelector(".thank-you-message");
             if (thankYouMessage) {
               animateText(thankYouMessage)
               enableAllButtons(form);
@@ -96,6 +97,10 @@
       }
     };
     document.addEventListener("DOMContentLoaded", loaded, false);
+
+    function hideText(element) {
+      element.style.display = "none";
+    }
 
     function animateText(element) {
       element.style.display = "block";
