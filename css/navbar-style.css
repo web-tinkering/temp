@@ -6,11 +6,11 @@ nav.container::before, nav.container::after{
     height: 2rem;
 }
 
-.list-group .list-group-item a{
+.list-group .list-group-item a, .navbar-heading{
     color: #f8f9fa;
     transition: all 0.3s ease-in-out;
 }
 
-.list-group .list-group-item a:hover{
+.list-group .list-group-item a:hover, .navbar-heading:hover{
     color: chartreuse;
 }
