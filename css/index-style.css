@@ -26,10 +26,9 @@
     transform: translate(-50%, -50%);
 }
 
-.facilities{
-    color: red;
-}
+/* ################################################### facilities styling ######################################## */
 
-.my-width{
+#facilities .row .col{
     width: 30%;
+    background-color: rgba(254, 254, 254);
 }
