@@ -26,6 +26,13 @@
     transform: translate(-50%, -50%);
 }
 
-.facilities{
-    color: red;
+/* ################################################### facilities styling ######################################## */
+
+#facilities .row .col{
+    width: 30%;
+    background-color: white;
+}
+
+#facilities .row .col .col-heading{
+    color: orangered;
 }
