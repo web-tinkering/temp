@@ -50,6 +50,10 @@ h1, h2, h3{
     font-size: 1.5em;
 }
 
+.text-orangered{
+    color: orangered;
+}
+
 /* ################################################### particular elements styling ######################################## */
 
 .get-direction{
@@ -58,4 +62,12 @@ h1, h2, h3{
 
 .get-direction:hover{
     color: orange;
+}
+
+/* ################################################### making responsive ######################################## */
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
 }
