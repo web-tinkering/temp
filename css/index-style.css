@@ -36,3 +36,11 @@
 #facilities .row .col .col-heading{
     color: orangered;
 }
+
+/* ################################################### making responsive ######################################## */
+
+@media(max-width: 992px){
+    #facilities .row .col{
+        width: 100%;
+    }
+}
