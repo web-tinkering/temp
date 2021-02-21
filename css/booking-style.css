@@ -1,0 +1,27 @@
+/* ################################################### navbar styling ######################################## */
+
+.list-group .list-group-item a[href="./booking.html"]{
+    color: #E9AD28;
+}
+
+col.my-col{
+    width: auto;
+}
+
+col.my-col.my-col-1{
+    width:30%;
+}
+
+.fas.fa-hotel{
+    font-size: 30rem;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+.my-margin {
+    margin-top: 22rem;
+}

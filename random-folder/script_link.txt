@@ -1,3 +1,1 @@
 webtinkering: https://script.google.com/macros/s/AKfycbx6sTOvM6o3DttiDY6i1cuenVc3DWEZvFNBxgfnmjaVW-xSSkE2LYQo/exec
-
-saiecoresort: https://script.google.com/macros/s/AKfycbyH2xzRh_Y_Uio0Zw8RuzoVUrB5s2F5npQrCw1QbToOa1bFXChwRsun/exec
