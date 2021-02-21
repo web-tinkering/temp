@@ -5,3 +5,7 @@ nav.container::before, nav.container::after{
     display: block;
     height: 2rem;
 }
+
+.navbar-heading{
+    line-height: 10em;
+}
